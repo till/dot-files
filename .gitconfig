@@ -1,0 +1,17 @@
+[user]
+	name = till
+	email = till@php.net
+[core]
+	editor = vim
+	excludesfile = /Users/till/.gitignore_global
+[alias]
+  pu = !"git fetch origin -v; git fetch upstream -v; git merge upstream/$1"
+  pg = !"git log --pretty=format:'%h : %s' --date-order --graph"
+  tc = !sh -c 'git rev-list $0 | head -n 1'
+[color]
+	branch = auto
+	diff = auto
+	interactive = auto
+	status = auto
+[push]
+	default = current
