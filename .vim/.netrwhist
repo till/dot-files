@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/Users/till/Documents/workspaces/gocourse/gocourse-consumer/src/behat-junit.xml'
+let g:netrw_dirhist_2='/Users/till/Documents/workspaces/easybib-cookbooks/php-pdo_sqlite'
+let g:netrw_dirhist_3='/Users/till/Documents/workspaces/easybiblabs/composer-newrelic/src/EasyBib'
+let g:netrw_dirhist_4='/Users/till/Documents/workspaces/easybib-cookbooks/php/resources'
+let g:netrw_dirhist_5='/Users/till/Documents/workspaces/easybib-cookbooks/.kitchen'
+let g:netrw_dirhist_6='/Users/till/Documents/workspaces/easybiblabs/bib-vagrant/lib/bib/vagrant'
+let g:netrw_dirhist_7='/Users/till/Documents/workspaces/easybib-cookbooks/easybib_nginx/providers'
+let g:netrw_dirhist_8='/Users/till/Documents/workspaces/getcourse/getcourse-api/vendor/getcourse/entities/src/GetCourseEntities/Entity'
+let g:netrw_dirhist_9='/Users/till/Documents/workspaces/easybib-cookbooks/qafoo-profiler'

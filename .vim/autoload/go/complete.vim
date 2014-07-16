@@ -1,0 +1,1 @@
+/usr/local/Cellar/go/1.2.1/misc/vim/autoload/go/complete.vim
