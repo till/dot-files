@@ -1,6 +1,0 @@
----
-nfs: true
-cookbook_path: ~/Documents/workspaces/easybib-cookbooks
-chef_log_level: debug
-additional_json: ! '{}'
-gui: true
