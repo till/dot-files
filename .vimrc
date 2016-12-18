@@ -33,4 +33,6 @@ syntax on
 highlight ExtraWhitespace ctermbg=red guibg=red
 match ExtraWhitespace /\s\+$/
 
+
+autocmd BufWritePre * :%s/\s\+$//e
 autocmd FileType ruby setlocal shiftwidth=2 tabstop=2
