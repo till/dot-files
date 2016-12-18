@@ -22,6 +22,9 @@ ZSH_THEME="clean"
 # Uncomment following line if you want red dots to be displayed while waiting for completion
 # COMPLETION_WAITING_DOTS="true"
 
+export LC_CTYPE=en_US.UTF-8
+export LANG=en_US.UTF-8
+
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Example format: plugins=(rails git textmate ruby lighthouse)
 plugins=(git composer git-remote-branch last-working-dir vagrant)
@@ -29,21 +32,18 @@ plugins=(git composer git-remote-branch last-working-dir vagrant)
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
+PATH=/Users/till/bin:$PATH
 PATH=/usr/local/bin:$PATH
 PATH=/usr/local/sbin:$PATH
-PATH=$PATH:/Users/till/.rbenv/bin:/opt/RDSCli-1.8.002/bin
-PATH=$PATH:/Users/till/Documents/workspaces/mozilla-addon-sdk-9c31911/bin:/usr/local/share/npm/bin
-PATH=$PATH:/Users/till/packer
-PATH=$PATH:/Users/till/bin
+PATH=$PATH:/Users/till/.rbenv/bin
 PATH=$PATH:/usr/local/Cellar/go/1.2.1/libexec/bin
-PATH=$PATH:/Users/till/go/bin
 
 #export GOROOT=/usr/local/Cellar/go/1.2.1
 export GOPATH=/Users/till/go
 
-#export AWS_RDS_HOME=/opt/RDSCli-1.8.002
+export MONO_GAC_PREFIX="/usr/local"
+
 #export JAVA_HOME=$(/usr/libexec/java_home)
-#export AWS_CREDENTIAL_FILE=/opt/RDSCli-1.8.002/credential-file-path
 export EDITOR=vim
 
 source /Users/till/.zshrc_private
@@ -53,3 +53,6 @@ eval "$(rbenv init -)"
 
 # added by travis gem
 source /Users/till/.travis/travis.sh
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
