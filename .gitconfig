@@ -8,6 +8,10 @@
   pu = !"git fetch origin -v; git fetch upstream -v; git merge upstream/$1"
   pg = !"git log --pretty=format:'%h : %s' --date-order --graph"
   tc = !sh -c 'git rev-list $0 | head -n 1'
+  lol = log --graph --decorate --oneline
+  lola = log --graph --decorate --oneline --all
+  s = status
+  c = commit
 [color]
 	branch = auto
 	diff = auto
@@ -15,3 +19,6 @@
 	status = auto
 [push]
 	default = current
+
+[remote "origin"]
+    fetch = +refs/pull/*/head:refs/remotes/origin/pr/*
